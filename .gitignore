@@ -22,3 +22,25 @@
 # virtual machine crash logs, see http://www.java.com/en/download/help/error_hotspot.xml
 hs_err_pid*
 replay_pid*
+
+# Ignore Gradle project-specific cache directory
+.gradle
+
+# Ignore Gradle build output directory
+build
+
+# VS Code
+.vscode/
+.classpath
+.project
+.settings/
+bin/
+
+# OS一時ファイル
+.DS_Store
+Thumbs.db
+
+# 認証情報・環境変数（APIキーやログイン情報の誤コミット防止）
+.env
+config.json
+credentials.json
